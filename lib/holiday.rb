@@ -82,6 +82,7 @@ holiday_hash.each do |holiday|
     bbq_holiday << holiday
 end
 end
+end
 bbq_holiday
 end
 

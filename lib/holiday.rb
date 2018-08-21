@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-list = ""
+list = []
 holiday_hash.each do |season, holiday|
   list << "#{season.to_s}: #{holiday.to_s}"
   holiday_hash[season].each do |holiday, value|

@@ -68,7 +68,7 @@ holiday_hash.each do |season, holiday|
   holiday_hash[season].each do |holiday, value|
     list << "#{value.to_s}"
   end
-  list.split
+  new_list = list.split
   end
 end
 list.flatten

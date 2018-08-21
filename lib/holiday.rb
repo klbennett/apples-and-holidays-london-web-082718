@@ -70,9 +70,10 @@ holiday_hash.each do |season, holiday|
   end
   new_list = list.split(" ")
   
-  new.list each do |word|
+  new_list.each do |word|
     word.capitalize!
   end
+  new_list.join
 end
 list.flatten
 end

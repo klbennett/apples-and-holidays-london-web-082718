@@ -68,7 +68,10 @@ holiday_hash.each do |season, holiday|
   holiday_hash[season].each do |holiday, value|
     list << "#{value.to_s}"
   end
-  new_list = list.split
+  new_list = list.split(" ")
+  
+  new.list each do |word|
+    word.capitalize!
   end
 end
 list.flatten

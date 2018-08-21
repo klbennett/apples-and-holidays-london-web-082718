@@ -66,7 +66,7 @@ list = []
 holiday_hash.each do |season, holiday|
   puts"#{season.to_s.capitalize}"
   holiday_hash[season].each do |holiday, value|
-    puts "#{attribute.to_s.flatten}"
+    puts "#{value.to_s.capitalize}"
   end
 end
 list.flatten

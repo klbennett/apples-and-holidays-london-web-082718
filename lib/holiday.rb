@@ -50,6 +50,7 @@ holiday_hash.each do |season, supply|
   if season == winter
   winter_supplies << supply.values
 end
+end
 winter_supplies
 end
 

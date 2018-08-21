@@ -75,7 +75,7 @@ holiday_hash.each do |season, holiday|
   end
   new_list.join(":")
 end
-list.flatten
+new_list
 end
 
 

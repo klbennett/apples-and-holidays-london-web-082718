@@ -69,7 +69,7 @@ holiday_hash.each do |season, holiday|
     list << "#{attribute}"
   end
 end
-list.flatten.capitalize
+list.flatten
 end
 
 
